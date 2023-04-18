@@ -1,0 +1,178 @@
+/* ---------------web view-------------------------------------------- */
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* index.html code */
+.navbar{
+    height: 130px;
+   display: flex;
+box-shadow:  4px 6px 4px rgb(189, 188, 188);
+}
+.text{
+    height: 100px;
+    width: 250px;
+    text-align:center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin:30px;
+      margin-left: 100px;
+}
+.li{
+    color:rgb(53, 182, 241);
+}
+.link{
+    display: flex;
+    justify-content:flex-end;
+   margin-right: 200px;
+   margin-top: 50px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(53, 182, 241);
+    border-radius: 50%;
+    /* padding: 12px; */
+    justify-content: center;
+}
+.plus{
+    font-size: 50px;
+    color: white;
+     height: 40px;
+    width: 40px;
+    text-align:center;
+  margin-left: 10px;   
+}
+.ac{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row; 
+}
+
+.midcontainer{
+   
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.item{
+    height: 250px;
+    width: 250px;
+    border: 2px solid rgb(219, 219, 219);
+    margin-left: 70px;
+    margin-top: 60px;
+    border-radius: 15px; 
+}
+    
+.item:hover{
+box-shadow: 0px 0px 20px 10px rgb(224, 222, 222);
+}
+p{
+    color:rgb(53, 182, 241) ;
+    
+    font-size: 20px;
+    padding-left: 15px;
+   
+}
+.check{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    
+}
+.disabled{
+    text-decoration: line-through;
+    color: rgb(163, 163, 163);
+}
+/* index2.html code */
+.parent{
+    filter: blur(3px );
+}
+.addtask{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    bottom: 550px;
+    left: 35%;
+    border-radius: 20px;
+}
+.hi{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: rgb(37, 37, 37);
+}
+#cross{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    color:rgb(37, 37, 37) ;
+    left: 350px;
+}
+.input{
+    width: 100px;
+    position:relative;
+    top: 30px;
+    left: 20px;
+}
+#text{
+    width: 350px;
+    height: 25px;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(53, 182, 241);
+    position: relative;
+    right: -280px;
+    bottom: -50px;
+    text-align: center;
+
+}
+.navication{
+    text-decoration: none;
+
+}
+/* index3.html code */
+.page3main{
+    position: absolute;
+    top:170px;
+    left: 450px;
+
+}
+.add{
+    position: absolute;
+    top:130px;
+    left:910px;
+    /* height: 100px;
+    width: 400px;
+     */
+}
+.back{
+    position: absolute;
+    left: 250px;
+    top:130px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+#backtext{
+    font-size: 40px;
+    text-align: center;
+}
+/* index4.html coded */
+.additem{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    bottom: -140px;
+    left: 35%;
+    border-radius: 20px;
+}
